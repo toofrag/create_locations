@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>active_locations</key>
+	<array>
+		<dict>
+			<key>auto_proxy_discovery</key>
+			<true/>
+			<key>interface</key>
+			<string>Ethernet</string>
+			<key>ipv6</key>
+			<true/>
+			<key>name</key>
+			<string>Wired Network</string>
+			<key>proxy_exceptions</key>
+			<string>*.local, 169.254/16, localhost, 127.0.0.1, *.example.ac.uk</string>
+		</dict>
+		<dict>
+			<key>auto_proxy_discovery</key>
+			<true/>
+			<key>interface</key>
+			<string>Wi-Fi</string>
+			<key>ipv6</key>
+			<false/>
+			<key>name</key>
+			<string>Wireless</string>
+			<key>proxy_exceptions</key>
+			<string>*.local, 169.254/16, localhost, 127.0.0.1</string>
+		</dict>
+		<dict>
+			<key>auto_proxy_discovery</key>
+			<false/>
+			<key>interface</key>
+			<string>Ethernet</string>
+			<key>ipv6</key>
+			<true/>
+			<key>name</key>
+			<string>Wired network with proxy</string>
+			<key>http_proxy</key>
+			<string>http://cache.example.ac.uk</string>
+			<key>http_proxy_port</key>
+			<string>3128</string>
+			<key>https_proxy</key>
+			<string>http://cache.example.ac.uk</string>
+			<key>https_proxy_port</key>
+			<string>3128</string>
+			<key>proxy_exceptions</key>
+			<string>*.local, 169.254/16, localhost, 127.0.0.1, *.example.ac.uk</string>
+		</dict>
+	</array>
+	<key>obsolete_locations</key>
+	<array>
+		<string>EduRoam</string>
+		<string>Broken Wireless</string>
+		<string>Automatic</string>
+	</array>
+	<key>default_location</key>
+	<string>Wired Network</string>
+</dict>
+</plist>
